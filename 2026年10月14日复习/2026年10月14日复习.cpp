@@ -1,9 +1,9 @@
 #include<stdio.h>
-int main(int a,int b,int c) {
-	a = 5;
-	b = 3;
-	c = a - b;
-		printf("5-3=%d",c);
+int fx(int a, int b) {
+	return a - b;
+}
+int main() {
+	int a = fx(5, 3);
+		printf("5-3=%d",a);
 		return 0;
-
 }
